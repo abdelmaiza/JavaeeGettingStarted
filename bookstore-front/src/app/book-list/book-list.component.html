@@ -1,0 +1,13 @@
+<h2>
+  List all the books - {{nbBooks}}
+</h2>
+
+<ul class="list-unstyled">
+  <li class="media my-4" *ngFor="let book of books" >
+    <img class="d-flex mr-3" src="{{book.imgUrl}}">
+    <div>
+      <h5 class="mt-0 mb-1"><a [routerLink]="['/book-detail',book.id]">{{book.title}}</a></h5>
+      {{book.description}}
+    </div>
+  </li>
+</ul>
