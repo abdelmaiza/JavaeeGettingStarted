@@ -63,7 +63,7 @@ public class Book {
     public Book() {
     }
 
-    public Book(String isbn, String a_titile, float unit_cost, int nb_of_pages, Language language, Date date, String s,String imgUrl, String description) {
+    public Book(String isbn, String a_titile, float unit_cost, int nb_of_pages, Language language, Date date,String imgUrl, String description) {
         this.isbn = isbn;
         this.title = a_titile;
         this.unitCost = unit_cost;

@@ -10,7 +10,7 @@ import {BookService} from "../service";
 })
 export class BookListComponent implements OnInit {
   private nbBooks : number ;
-  private books = Book[Book];
+  private books : Book[];
 
   constructor(private bookService: BookService) { }
 

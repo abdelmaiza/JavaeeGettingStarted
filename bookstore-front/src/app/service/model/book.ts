@@ -14,7 +14,7 @@
 /**
  * Book resource representation
  */
-export interface Book {
+export class Book {
     /**
      * Identifier
      */
