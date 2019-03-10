@@ -80,7 +80,7 @@ public class BookEndpointTest {
     public void shouldCreateABook(@ArquillianResteasyResource("api/books") WebTarget webTarget) {
         // Creates a book
         Book book = new Book("isbn", "a   title", 12F, 123, Language.ENGLISH, new Date(), "imageURL", "description");
-        response = webTarget.request(APPLICATION_JSON).post(Entity.entity(book, APPLICATION_JSON));
+        response = webTarget.path("createBook").request(APPLICATION_JSON).post(Entity.entity(book, APPLICATION_JSON));
         assertEquals(CREATED.getStatusCode(), response.getStatus());
         // Checks the created book
         String location = response.getHeaderString("location");

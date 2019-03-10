@@ -95,13 +95,17 @@ export class BookService {
     /**
      * Creates a book given a JSon Book representation
      * 
+     * @param body Book to be created
      * @param observe set whether or not to return the data Observable as the body, response or events. defaults to returning the body.
      * @param reportProgress flag to report request and response progress.
      */
-    public createBook(observe?: 'body', reportProgress?: boolean): Observable<any>;
-    public createBook(observe?: 'response', reportProgress?: boolean): Observable<HttpResponse<any>>;
-    public createBook(observe?: 'events', reportProgress?: boolean): Observable<HttpEvent<any>>;
-    public createBook(observe: any = 'body', reportProgress: boolean = false ): Observable<any> {
+    public createBook(body: Book, observe?: 'body', reportProgress?: boolean): Observable<any>;
+    public createBook(body: Book, observe?: 'response', reportProgress?: boolean): Observable<HttpResponse<any>>;
+    public createBook(body: Book, observe?: 'events', reportProgress?: boolean): Observable<HttpEvent<any>>;
+    public createBook(body: Book, observe: any = 'body', reportProgress: boolean = false ): Observable<any> {
+        if (body === null || body === undefined) {
+            throw new Error('Required parameter body was null or undefined when calling createBook.');
+        }
 
         let headers = this.defaultHeaders;
 
@@ -117,9 +121,13 @@ export class BookService {
         let consumes: string[] = [
             'application/json'
         ];
+        let httpContentTypeSelected:string | undefined = this.configuration.selectHeaderContentType(consumes);
+        if (httpContentTypeSelected != undefined) {
+            headers = headers.set("Content-Type", httpContentTypeSelected);
+        }
 
         return this.httpClient.post<any>(`${this.basePath}/books`,
-            null,
+            body,
             {
                 withCredentials: this.configuration.withCredentials,
                 headers: headers,

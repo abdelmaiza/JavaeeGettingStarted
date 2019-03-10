@@ -7,26 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c7a1e6-3d00-4aa6-8835-8a3bebfaf747" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/service/.swagger-codegen-ignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/service/.swagger-codegen/VERSION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/service/api.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/service/api/api.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/service/api/book.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/service/configuration.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/service/encoder.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/service/git_push.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/service/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/service/model/book.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/service/model/models.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/service/variables.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-back/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/rest/BookEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/rest/BookEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-back/src/test/java/com/pluralsight/bookstore/rest/BookEndpointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-back/src/test/java/com/pluralsight/bookstore/rest/BookEndpointTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-front/src/app/service/api/book.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-front/src/app/service/api/book.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bookstore-back/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +23,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-786773418">
@@ -91,28 +94,39 @@
     <session id="-1853589097">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.108" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.140" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="Angular2LanguageService" value="2" />
+          <entry key="Angular2LanguageService" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
-          <entry key="JSON" value="3" />
-          <entry key="TypeScript" value="7" />
+          <entry key="CLASS" value="22" />
+          <entry key="HTML" value="4" />
+          <entry key="JAVA" value="16" />
+          <entry key="JSON" value="4" />
+          <entry key="SQL" value="1" />
+          <entry key="TypeScript" value="14" />
+          <entry key="XML" value="5" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="TypeScript" value="20" />
+          <entry key="HTML" value="20" />
+          <entry key="JAVA" value="24" />
+          <entry key="TypeScript" value="186" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -120,22 +134,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.ts">
+        <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="169">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -144,10 +146,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookstore-front/tsconfig.json">
+        <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="17">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -155,49 +157,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/service/model/book.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="527">
+              <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/service/model/models.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/service/api/book.service.ts">
+        <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/rest/BookEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookstore-front/angular.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookstore-front/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/model/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,11 +175,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar!/javax/ws/rs/Path.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-345">
-              <caret line="158" column="19" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="19" />
+            <state relative-caret-position="45">
+              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/service/api/book.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1989">
+              <caret line="81" column="34" lean-forward="true" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
+              <folding>
+                <element signature="e#401#483#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/resources/import.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="203" selection-start-line="1" selection-start-column="202" selection-end-line="1" selection-end-column="263" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-416">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -237,21 +255,24 @@
       <list>
         <option value="$PROJECT_DIR$/bookstore-front/src/app/app.component.ts" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
-        <option value="$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.ts" />
         <option value="$PROJECT_DIR$/bookstore-front/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.html" />
         <option value="$PROJECT_DIR$/bookstore-front/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.html" />
         <option value="$PROJECT_DIR$/bookstore-front/angular.json" />
         <option value="$PROJECT_DIR$/bookstore-front/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/rest/CorsFilter.java" />
-        <option value="$PROJECT_DIR$/bookstore-front/src/app/service/api/book.service.ts" />
         <option value="$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.html" />
         <option value="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/model/Book.java" />
         <option value="$PROJECT_DIR$/bookstore-back/src/test/java/com/pluralsight/bookstore/repository/BookRepositoryTest.java" />
         <option value="$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.ts" />
-        <option value="$PROJECT_DIR$/bookstore-front/src/app/service/model/book.ts" />
         <option value="$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.ts" />
+        <option value="$PROJECT_DIR$/bookstore-back/pom.xml" />
+        <option value="$PROJECT_DIR$/bookstore-back/src/test/java/com/pluralsight/bookstore/rest/BookEndpointTest.java" />
+        <option value="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/rest/CorsFilter.java" />
+        <option value="$PROJECT_DIR$/bookstore-front/src/app/service/api/book.service.ts" />
+        <option value="$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.ts" />
+        <option value="$PROJECT_DIR$/bookstore-front/src/app/service/model/book.ts" />
+        <option value="$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.html" />
+        <option value="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/rest/BookEndpoint.java" />
       </list>
     </option>
   </component>
@@ -300,8 +321,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,13 +352,42 @@
               <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaeeGettingStarted" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaeeGettingStarted" type="462c0819:PsiDirectoryNode" />
               <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaeeGettingStarted" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaeeGettingStarted" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaeeGettingStarted" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaeeGettingStarted" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaeeGettingStarted" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaeeGettingStarted" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore-back" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaeeGettingStarted" type="b2602c69:ProjectViewProjectNode" />
@@ -365,7 +413,7 @@
               <item name="bookstore-front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="book-detail" type="462c0819:PsiDirectoryNode" />
+              <item name="book-form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaeeGettingStarted" type="b2602c69:ProjectViewProjectNode" />
@@ -397,19 +445,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551740149218" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552259858154" />
+    <property name="last_opened_file_path" value="E:/javaee7Fundamentals" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.21375" />
-    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="E:\JavaeeGettingStarted\bookstore-front\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
@@ -424,9 +475,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Arquillian JUnit.WildFly Remote: BookEndpointTest">
+  <component name="RunManager" selected="JBoss Server.JeeServer">
     <configuration name="WildFly Remote: BookEndpointTest" type="ArquillianJUnit" factoryName="">
       <module name="bookstore-back" />
+      <shortenClasspath name="MANIFEST" />
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="WildFly Remote" />
@@ -442,8 +494,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WildFly Remote: BookEndpointTest.shouldCreateABook" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <module name="bookstore-back" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.bookstore.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="WildFly Remote" />
+        </value>
+      </option>
+      <option name="PACKAGE_NAME" value="com.pluralsight.bookstore.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.bookstore.rest.BookEndpointTest" />
+      <option name="METHOD_NAME" value="shouldCreateABook" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WildFly Remote: BookEndpointTest.shouldGetNoBook" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <module name="bookstore-back" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.bookstore.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="WildFly Remote" />
+        </value>
+      </option>
+      <option name="PACKAGE_NAME" value="com.pluralsight.bookstore.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.bookstore.rest.BookEndpointTest" />
+      <option name="METHOD_NAME" value="shouldGetNoBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WildFly Remote: BookRepositoryTest" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <module name="bookstore-back" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pluralsight.bookstore.repository.*" />
@@ -539,8 +640,15 @@
     <list>
       <item itemvalue="Arquillian JUnit.WildFly Remote: BookRepositoryTest" />
       <item itemvalue="Arquillian JUnit.WildFly Remote: BookEndpointTest" />
+      <item itemvalue="Arquillian JUnit.WildFly Remote: BookEndpointTest.shouldCreateABook" />
       <item itemvalue="JBoss Server.JeeServer" />
+      <item itemvalue="Arquillian JUnit.WildFly Remote: BookEndpointTest.shouldGetNoBook" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Arquillian JUnit.WildFly Remote: BookEndpointTest.shouldGetNoBook" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -564,17 +672,53 @@
       <workItem from="1551726095873" duration="958000" />
       <workItem from="1551730430784" duration="1143000" />
       <workItem from="1551731626206" duration="8014000" />
+      <workItem from="1551914651911" duration="7386000" />
+      <workItem from="1551922285946" duration="1743000" />
+      <workItem from="1552134002821" duration="589000" />
+      <workItem from="1552134672870" duration="11283000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="WildFly_Remote__BookEndpointTest_shouldCreateABook - 2019.03.07 at 01h 29m 27s.xml">
+      <configuration name="WildFly Remote: BookEndpointTest.shouldCreateABook" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="WildFly_Remote__BookEndpointTest - 2019.03.07 at 01h 59m 42s.xml">
+      <configuration name="WildFly Remote: BookEndpointTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="WildFly_Remote__BookEndpointTest - 2019.03.07 at 02h 00m 16s.xml">
+      <configuration name="WildFly Remote: BookEndpointTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="WildFly_Remote__BookEndpointTest - 2019.03.07 at 02h 07m 49s.xml">
+      <configuration name="WildFly Remote: BookEndpointTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="WildFly_Remote__BookEndpointTest - 2019.03.07 at 02h 13m 42s.xml">
+      <configuration name="WildFly Remote: BookEndpointTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="WildFly_Remote__BookEndpointTest - 2019.03.07 at 02h 27m 28s.xml">
+      <configuration name="WildFly Remote: BookEndpointTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="WildFly_Remote__BookEndpointTest - 2019.03.07 at 02h 47m 57s.xml">
+      <configuration name="WildFly Remote: BookEndpointTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="WildFly_Remote__BookEndpointTest - 2019.03.07 at 02h 51m 58s.xml">
+      <configuration name="WildFly Remote: BookEndpointTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="WildFly_Remote__BookRepositoryTest - 2019.03.09 at 13h 38m 12s.xml">
+      <configuration name="WildFly Remote: BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+    <history-entry file="WildFly_Remote__BookRepositoryTest - 2019.03.09 at 13h 41m 29s.xml">
+      <configuration name="WildFly Remote: BookRepositoryTest" configurationId="ArquillianJUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42133000" />
+    <option name="totallyTimeSpent" value="63134000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2806354" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27912253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -586,26 +730,26 @@
       <window_info id="Web" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8729198" visible="true" weight="0.34353742" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8721634" weight="0.335034" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8630862" visible="true" weight="0.47619048" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="TypeScript" order="7" sideWeight="0.494705" weight="0.22108844" />
+      <window_info anchor="bottom" id="TypeScript" order="7" sideWeight="0.49319214" weight="0.22108844" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.12708019" side_tool="true" visible="true" weight="0.34353742" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.13691376" side_tool="true" visible="true" weight="0.47619048" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="13" sideWeight="0.49924356" weight="0.32993197" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32993197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.12178517" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.204236" />
+      <window_info anchor="right" id="Database" order="6" weight="0.0" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="JSF" order="9" />
@@ -663,35 +807,73 @@
       <path value="$PROJECT_DIR$/bookstore-back" />
     </ignored-roots>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bookstore-back/src/test/java/com/pluralsight/bookstore/rest/BookEndpointTest.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/repository/BookRepository.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bookstore-back/src/test/java/com/pluralsight/bookstore/rest/BookEndpointTest.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/rest/BookEndpoint.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bookstore-back/src/test/java/com/pluralsight/bookstore/rest/BookEndpointTest.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/rest/BookEndpoint.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.ts</url>
+          <line>21</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>webTarget.path(&quot;count&quot;).request().get()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>var3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
-    <entry file="file://$PROJECT_DIR$/bookstore-front/node_modules/@angular/core/src/metadata/directives.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="483" column="4" selection-start-line="483" selection-start-column="4" selection-end-line="483" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/service/.swagger-codegen/VERSION">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -727,39 +909,263 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/rest/BookEndpoint.java">
+    <entry file="file://$USER_HOME$/Downloads/java-ee-getting-started/15-invoking-the-rest-service/invoking-the-rest-service-exercise-files/demos/bookstore-back/src/main/java/com/pluralsight/bookstore/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/util/IsbnGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/util/TextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-core/1.4.1.Final/arquillian-junit-core-1.4.1.Final.jar!/org/jboss/arquillian/junit/State.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-spi/1.4.1.Final/arquillian-test-spi-1.4.1.Final.jar!/org/jboss/arquillian/test/spi/TestResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-spi/1.4.1.Final/arquillian-test-spi-1.4.1.Final.jar!/org/jboss/arquillian/test/spi/ExceptionProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/repository/BookRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="e#1634#1635#0" expanded="true" />
+            <element signature="e#1714#1715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-impl-base/1.4.1.Final/arquillian-core-impl-base-1.4.1.Final.jar!/org/jboss/arquillian/core/impl/ManagerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-impl-base/1.4.1.Final/arquillian-core-impl-base-1.4.1.Final.jar!/org/jboss/arquillian/core/impl/EventImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.4.1.Final/arquillian-container-test-impl-base-1.4.1.Final.jar!/org/jboss/arquillian/container/test/impl/execution/ClientTestExecuter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.4.1.Final/arquillian-container-test-impl-base-1.4.1.Final.jar!/org/jboss/arquillian/container/test/impl/client/ContainerEventController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/test/arquillian-test-impl-base/1.4.1.Final/arquillian-test-impl-base-1.4.1.Final.jar!/org/jboss/arquillian/test/impl/TestContextHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-impl-base/1.4.1.Final/arquillian-core-impl-base-1.4.1.Final.jar!/org/jboss/arquillian/core/impl/ObserverImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar!/javax/ws/rs/client/SyncInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/core/arquillian-core-impl-base/1.4.1.Final/arquillian-core-impl-base-1.4.1.Final.jar!/org/jboss/arquillian/core/impl/EventContextImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-back/src/test/resources/META-INF/test-persistence.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-core/1.4.1.Final/arquillian-junit-core-1.4.1.Final.jar!/org/jboss/arquillian/junit/Arquillian.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3689">
+          <caret line="245" selection-start-line="245" selection-end-line="245" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar!/javax/ws/rs/core/Response.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2669">
+          <caret line="191" column="40" selection-start-line="191" selection-start-column="40" selection-end-line="191" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-back/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/junit/arquillian-junit-core/1.4.1.Final/arquillian-junit-core-1.4.1.Final.jar!/org/jboss/arquillian/junit/MethodInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.4.1.Final/arquillian-container-test-impl-base-1.4.1.Final.jar!/org/jboss/arquillian/container/test/impl/execution/LocalTestExecuter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/rest/CorsFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/repository/BookRepository.java">
+    <entry file="file://$PROJECT_DIR$/bookstore-back/src/test/java/com/pluralsight/bookstore/rest/BookEndpointTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="354">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/java-ee-getting-started/15-invoking-the-rest-service/invoking-the-rest-service-exercise-files/demos/bookstore-back/src/main/java/com/pluralsight/bookstore/model/Book.java">
+    <entry file="file://$PROJECT_DIR$/bookstore-back/src/test/java/com/pluralsight/bookstore/repository/BookRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/service/model/models.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-back/pom.xml">
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/service/api/api.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1748" />
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="151" column="29" lean-forward="true" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/resources/import.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="233" selection-start-line="12" selection-start-column="233" selection-end-line="12" selection-end-column="233" />
+        <state relative-caret-position="17">
+          <caret line="1" column="203" selection-start-line="1" selection-start-column="202" selection-end-line="1" selection-end-column="263" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -770,106 +1176,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.html">
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/service/model/book.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/service/api/book.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1989">
+          <caret line="81" column="34" lean-forward="true" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
+          <folding>
+            <element signature="e#401#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/service/api/api.ts">
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-form/book-form.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        <state relative-caret-position="169">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-back/src/test/java/com/pluralsight/bookstore/rest/BookEndpointTest.java">
+    <entry file="file://E:/javaee7Fundamentals/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/rest/BookEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-back/src/test/java/com/pluralsight/bookstore/repository/BookRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="90" column="37" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/angular.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/model/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger.json">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar!/javax/ws/rs/Path.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="158" column="19" selection-start-line="158" selection-start-column="19" selection-end-line="158" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-list/book-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/service/model/models.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/service/api/book.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/service/model/book.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/book-detail/book-detail.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>

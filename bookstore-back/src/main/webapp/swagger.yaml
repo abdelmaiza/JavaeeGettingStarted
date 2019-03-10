@@ -42,7 +42,13 @@ paths:
       operationId: "createBook"
       consumes:
       - "application/json"
-      parameters: []
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "Book to be created"
+        required: true
+        schema:
+          $ref: "#/definitions/Book"
       responses:
         201:
           description: "The book is created"

@@ -2,13 +2,7 @@ package com.pluralsight.bookstore.rest;
 
 import com.pluralsight.bookstore.model.Book;
 import com.pluralsight.bookstore.repository.BookRepository;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiResponse;
-import io.swagger.annotations.ApiResponses;
-import io.swagger.annotations.Info;
-import io.swagger.annotations.SwaggerDefinition;
-import io.swagger.annotations.Tag;
+import io.swagger.annotations.*;
 
 import javax.inject.Inject;
 import javax.validation.constraints.Min;
@@ -69,7 +63,7 @@ public class BookEndpoint {
         @ApiResponse(code = 201, message = "The book is created"),
         @ApiResponse(code = 415, message = "Format is not JSon")
     })
-    public Response createBook(Book book, @Context UriInfo uriInfo) {
+    public Response createBook(@ApiParam(value = "Book to be created", required = true) Book book, @Context UriInfo uriInfo) {
         book = bookRepository.create(book);
         URI createdURI = uriInfo.getBaseUriBuilder().path(book.getId().toString()).build();
         return Response.created(createdURI).build();
